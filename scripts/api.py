@@ -5,7 +5,7 @@ import torch
 import numpy as np
 from fastapi import FastAPI, Body
 from fastapi.exceptions import HTTPException
-from pydantic import BaseModel
+from pydantic.v1 import BaseModel
 
 from PIL import Image
 

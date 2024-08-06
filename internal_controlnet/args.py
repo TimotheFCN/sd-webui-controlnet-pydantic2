@@ -3,7 +3,7 @@ import os
 import torch
 import numpy as np
 from typing import Optional, List, Annotated, ClassVar, Callable, Any, Tuple, Union
-from pydantic import BaseModel, validator, root_validator, Field
+from pydantic.v1 import BaseModel, validator, root_validator, Field
 from PIL import Image
 from logging import Logger
 from copy import copy
